@@ -1,0 +1,109 @@
+
+
+.onepage-container {
+  position: relative;
+  background: #fff;
+}
+
+
+.container-background {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+
+  .bg-top {
+    background: url("/static/header.png") no-repeat;
+    background-size: contain;
+    align-items: flex-start;
+    width: 100%;
+    height: 1111px;
+  }
+
+  .bg-bottom {
+    position: absolute;
+    background-image: url("/static/footer.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: flex-start;
+    width: 100%;
+    height: 1450px;
+    bottom: 0;
+  }
+}
+
+
+.section {
+  background: transparent;
+  position: relative;
+  strong {
+    font-weight: 900;
+  }
+}
+
+
+.parallax-container {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 741px;
+}
+
+
+.cover-resume {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 360px;
+  background: url('/static/resume.jpg') no-repeat;
+  background-size: 100% 100%;
+  margin: 72px 0;
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(117, 78, 249, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 1100;
+  }
+
+}
+
+
+
+.sectionOne {
+
+}
+
+.sectionThree {
+  background: rgb(240, 240, 240);
+}
+
+.sectionFour {
+  height: 1vh;
+
+  .ant-carousel {
+
+    .slick-slide {
+      text-align: center;
+      height: 798px;
+      line-height: 798px;
+      background: #364d79;
+      overflow: hidden;
+    }
+  }
+}
+
+.sectionFive {
+  background: rgb(240, 240, 240);
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
