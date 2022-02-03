@@ -32,25 +32,25 @@ const StyledFab = withStyles(theme => ({
 const works = [
   {
     direction: 'row',
+    img: 'static/lsb-poster.png',
+    url: 'https://thewastedlands.io/',
+    title: 'The Wasted Lands',
+    subtitle: 'Webpage',
+    description: 'Official website for The Wasted Lands team, WAL token, Marketplace, Inventory,...',
+    knowledge: 'ReactJS, Typescript, SASS, CSS modules',
+    date: 'October 1st, 2021',
+    status: true
+  },
+  {
+    direction: 'row-reverse',
     img: 'static/arise-poster.png',
     url: 'https://arise.finance/',
     title: 'Arise finance',
     subtitle: 'Webpage',
-    description: 'Offical Webpage for ARI token.',
+    description: 'Offical Webste for ARI token.',
     knowledge: 'ReactJS, Redux, web3, etc..',
     date: 'April 1st, 2020',
     status: false
-  },
-  {
-    direction: 'row-reverse',
-    img: 'static/lsb-poster.png',
-    url: 'https://chrome.google.com/webstore/detail/light-shadow-box/bmoeljkahcfgehdkfkeafinpnfmkabda',
-    title: 'Light Shadow Box Extension',
-    subtitle: 'Extension',
-    description: 'Extension to trade and swap token.',
-    knowledge: 'ReactJS, Typescript, SASS, CSS modules',
-    date: 'October 1st, 2020',
-    status: true
   },
   // {
   //   direction: 'row',
