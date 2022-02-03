@@ -39,7 +39,7 @@ const works = [
     description: 'Official website for The Wasted Lands team, WAL token, Marketplace, Inventory,...',
     knowledge: 'ReactJS, Typescript, SASS, CSS modules',
     date: 'October 1st, 2021',
-    status: true
+    status: false
   },
   {
     direction: 'row-reverse',
@@ -50,7 +50,7 @@ const works = [
     description: 'Offical Webste for ARI token.',
     knowledge: 'ReactJS, Redux, web3, etc..',
     date: 'April 1st, 2020',
-    status: false
+    status: true
   },
   // {
   //   direction: 'row',
