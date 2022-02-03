@@ -57,15 +57,7 @@ export default class AboutMe extends Component {
               <StyledProgress
                 variant="determinate"
                 color="primary"
-                value={20}
-              />
-            </Knowledge>
-            <Knowledge>
-              <Text>Play Games</Text>
-              <StyledProgress
-                variant="determinate"
-                color="primary"
-                value={100}
+                value={70}
               />
             </Knowledge>
             <Knowledge>
